@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Abid Aqil Syah</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" data-aos="fade-down">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">AS.</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="projects.html" class="nav-link active">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Header -->
+    <section class="projects-header">
+        <div class="container">
+            <h1 data-aos="fade-up">Proyek Saya</h1>
+            <p data-aos="fade-up" data-aos-delay="100">Koleksi karya terbaik saya dalam pengembangan aplikasi dan desain</p>
+        </div>
+    </section>
+
+    <!-- Filter Tabs -->
+    <section class="filter-section">
+        <div class="container">
+            <div class="filter-tabs" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">Semua</button>
+                <button class="filter-btn" data-filter="mobile">Mobile App</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX Design</button>
+                <button class="filter-btn" data-filter="poster">Poster Design</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-grid-section">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Mobile App Project -->
+                <div class="project-card" data-category="mobile" data-aos="fade-up">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/ecommerce/400/300" alt="E-Commerce App">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?type=mobile&id=1" class="btn-view">
+                                <i class="fas fa-eye"></i> Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Mobile App</span>
+                        <h3>E-Commerce Mobile App</h3>
+                        <p>Aplikasi belanja online dengan fitur pembayaran terintegrasi</p>
+                        <div class="project-tech">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- UI/UX Projects -->
+                <div class="project-card" data-category="uiux" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/banking/400/300" alt="Banking App">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?type=uiux&id=1" class="btn-view">
+                                <i class="fas fa-eye"></i> Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">UI/UX Design</span>
+                        <h3>Banking App UI Design</h3>
+                        <p>Desain modern untuk aplikasi perbankan digital</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Prototyping</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="uiux" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/foodapp/400/300" alt="Food App">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?type=uiux&id=2" class="btn-view">
+                                <i class="fas fa-eye"></i> Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">UI/UX Design</span>
+                        <h3>Food Delivery App</h3>
+                        <p>Desain UI untuk aplikasi pesan antar makanan</p>
+                        <div class="project-tech">
+                            <span>Adobe XD</span>
+                            <span>Wireframing</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="uiux" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/fitness/400/300" alt="Fitness App">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?type=uiux&id=3" class="btn-view">
+                                <i class="fas fa-eye"></i> Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">UI/UX Design</span>
+                        <h3>Fitness Tracker App</h3>
+                        <p>Aplikasi tracking olahraga dengan fitur social</p>
+                        <div class="project-tech">
+                            <span>Figma</span>
+                            <span>Animation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Poster Projects -->
+                <div class="project-card" data-category="poster" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/poster1/400/300" alt="Tech Event">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?type=poster&id=1" class="btn-view">
+                                <i class="fas fa-eye"></i> Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Poster Design</span>
+                        <h3>Tech Event Poster</h3>
+                        <p>Poster untuk acara teknologi sekolah</p>
+                        <div class="project-tech">
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="poster" data-aos="fade-up" data-aos-delay="500">
+                    <div class="project-image">
+                        <img src="https://picsum.photos/seed/poster2/400/300" alt="Campaign">
+                        <div class="project-overlay">
+                            <a href="project-detail.html?type=poster&id=2" class="btn-view">
+                                <i class="fas fa-eye"></i> Lihat Detail
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-category">Poster Design</span>
+                        <h3>Environmental Campaign</h3>
+                        <p>Poster kampanye peduli lingkungan</p>
+                        <div class="project-tech">
+                            <span>Illustrator</span>
+                            <span>InDesign</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info" data-aos="fade-up">
+                    <h3>Abid Aqil Syah</h3>
+                    <p>Software Engineering Student</p>
+                    <p>SMK Telkom 1 Medan</p>
+                </div>
+                <div class="footer-social" data-aos="fade-up" data-aos-delay="100">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Abid Aqil Syah. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
